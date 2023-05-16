@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--
+    -css link
+  -->
+  <link rel="stylesheet" href="style.css" />
+  <title>URL Shortner</title>
+  <!--
+    -favicon
+  -->
+  <link rel="icon" type="image/x-icon" href="./favi.png">
+</head>
+
+<body>
+  <header>
+    <div class="right">
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#" class="nav-link active">Short Link</a></li>
+      </ul>
+    </div>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </header>
+  <main>
+    <!--
+      -content
+    -->
+    <section>
+      <div class="content">
+        <h1>Sending your scheduling link, <b style="background-color: #dea514; padding: 0 10px; border-radius: 10px 0 10px 0;"> like a Pro</b></h1>
+        <p><b>The idea is to minimize the web page address into something 
+          that's easier to remember and track.</b></p>
+        <button class="btn">Get started</button>
+      </div>
+      <div class="image">
+        <img src="./short.png" alt="image">
+      </div>
+    </section>
+    <section class="link-input">
+      <form class="input-container">
+        <input type="text" placeholder="Shorten a link here" required/>
+        <button type="submit" class="input-btn">Shorten it!</button>
+      </form>
+    </section>
+    <div class="result">
+    </div><br><br>
+  </main>
+
+  <!--
+    -Js link
+  -->
+  <script src="app.js"></script>
+</body>
+
+</html>
